@@ -1,0 +1,22 @@
+{
+  "name": "uceni",
+  "version": "1.0.0",
+  "description": "uceni",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroslavpalecek/uceni.git"
+  },
+  "keywords": [
+    "anna"
+  ],
+  "author": "mirek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miroslavpalecek/uceni/issues"
+  },
+  "homepage": "https://github.com/miroslavpalecek/uceni#readme"
+}
