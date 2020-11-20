@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "checkJs": true,
+        "removeComments": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "pretty": true,
+        "sourceMap": true,
+        "lib": ["es2017", "dom"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "*/.spec.ts", "*/.test.ts", "*/_mocks_", "**/_tests_*"]
+}

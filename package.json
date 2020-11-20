@@ -2,7 +2,7 @@
   "name": "uceni",
   "version": "1.0.0",
   "description": "uceni",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "test"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/miroslavpalecek/uceni/issues"
   },
-  "homepage": "https://github.com/miroslavpalecek/uceni#readme"
+  "homepage": "https://github.com/miroslavpalecek/uceni#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9"
+  }
 }
