@@ -3,14 +3,14 @@ const app = express ()
 
 
 
-//import get from './get';
-import get from './get-odecet';
+import getSoucet from './get-soucet';
+import get from './get-rozdil';
 
 
 app.use (express.json())
 
-app.get('/soucet', get);
+app.get('/soucet', getSoucet);
 
-app.get('/odecet', get);
+app.get('/rozdil', get);
 
 app.listen(3000, () => console.log ('Server Started'))
