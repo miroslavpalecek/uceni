@@ -8,11 +8,10 @@ const zelenePole: string [] = ['prvni slovo', 'druhe slovo', 'treti slovo', 'ctv
 
 //console.log(zelenePole[1].length);
 
-// for projde každý element a vrátí
 
 /*for (let i = 0; i < zelenePole.length; i++) {
     
-    // console.log(zelenePole[i]);
+    console.log(zelenePole[i]);
 
     console.log(i);
 
