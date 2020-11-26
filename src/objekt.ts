@@ -11,9 +11,3 @@ primula.adressa.Mesto = 'Brno'
 primula.jmeno = 'Kamil'
 
 console.log(primula);
-
-
-
-
-// z objektů udělá text
-//console.log(JSON.stringify(primula, undefined, 4));
