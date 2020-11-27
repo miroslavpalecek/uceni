@@ -1,6 +1,6 @@
-const a = 'abcde'
+const aa = 'abcde'
 
-switch(a.indexOf('a')) {
+switch(aa.indexOf('b')) {
     case 1:
       console.log('jedna')
       break;
