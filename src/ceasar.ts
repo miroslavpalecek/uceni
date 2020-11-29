@@ -9,7 +9,7 @@ function letterChange1(caesar:string):string{
             result +="e"
         } else if (letter=="e"){
             result += "i"
-        }else if (letter=="i"){
+        } else if (letter=="i"){
             result +="o"   
         } else {
             result += letter

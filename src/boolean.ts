@@ -1,7 +1,7 @@
 let cislo = true; 
 
 function pravdaNepravda(cislo:boolean):void{
-    let k = 50;
+    let k = 90;
     let f = 20;
 
         if ( k + f <= 100){
