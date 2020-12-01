@@ -49,4 +49,11 @@ function getRandomFloat(min:number, max:number) {
     return Math.random() * (max - min) + min
     }
     console.log(getRandomFloat( min, max))
+
+   
+   
+    /*function getRandomBool() {
+        return Math.random() >= 0.5;
+      }
+      console.log(getRandomBool())*/
    
