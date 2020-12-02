@@ -41,14 +41,31 @@ function test() {
 }
 console.log(test())*/
 
-let min = 1
-let max = 100
 
 
-function getRandomFloat(min:number, max:number) {
-    return Math.random() * (max - min) + min
-    }
-    console.log(getRandomFloat( min, max))
+function getRandomFloat():number {
+    const min = 1
+    const max = 100
+
+    let random1 = Math.random() * (max - min) + min
+
+
+    return (Math.round(random1))
+}
+
+//100 hp, vyvolame udalos, která spustí 3 utoky na HP, tzn. 3* se odecte náhodná hodnota
+
+let hp = 100
+
+
+for(let i = 0; i < 3; i++ ){
+    hp = hp - getRandomFloat()
+    console.log(hp)
+
+}
+console.log(hp)
+
+
 
    
    

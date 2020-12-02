@@ -22,11 +22,9 @@ console.log(zemeZlutych(slovo))*/
 function delkaSlova(slovo:string) {
     let count = 0;
   
-    // loop over every char
     for (const char of slovo) {
-      // check if it is lowercase
-      if (char.match(/[ ]/)) {
-        // if yes, increase count
+      
+      if (char.match(/[a]/)) {
         count += 1;
       }
     }
