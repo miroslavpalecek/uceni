@@ -1,4 +1,4 @@
-const o:string = 'mala nezletila  devka'
+const ll:string = 'mala nezletila  devka'
   function countWords(o:string):number {
   
   let count:number = 0 
@@ -12,7 +12,7 @@ const o:string = 'mala nezletila  devka'
   return count;
   }
 
-  console.log(countWords(o))
+  console.log(countWords(ll))
 
 
 

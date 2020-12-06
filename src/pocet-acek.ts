@@ -1,4 +1,4 @@
-const str = "mala nezletila devka"
+const kkk = "mala nezletila devka"
 
 function pocetPismen(str:string) {
     let count=0;
@@ -10,4 +10,4 @@ function pocetPismen(str:string) {
     return count
     
 }
-console.log(pocetPismen(str))
+console.log(pocetPismen(kkk))

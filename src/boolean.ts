@@ -19,4 +19,4 @@ function pravdaNepravda(cislo1:number, cislo2:number):boolean{
         }
 
 }
-    //onsole.log(odpoved)
+    console.log(odpoved)   

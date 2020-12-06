@@ -8,6 +8,6 @@ console.log(primula);
 console.log(Babis);
 
 primula.adressa.Mesto = 'Brno'
-primula.jmeno = 'Kamil'
+primula.jmeno = 'Ocasis Maximus'
 
 console.log(primula);

@@ -30,7 +30,7 @@ alert(wordCount); */
 //spocitat vsechna pismena dohromady
 //vydelit je poctem slov ve stringu
 
-const vali = "mala nezletila devka"
+const hhh = "mala nezletila devka"
 
 function avaWorldLengh(vali:string):number{
   //console.log(vali)
@@ -56,7 +56,7 @@ function avaWorldLengh(vali:string):number{
 return(count/(wordCount+1))
 
 }
-console.log(avaWorldLengh(vali))
+console.log(avaWorldLengh(hhh))
 
 
 /*if (podminka) {
