@@ -9,27 +9,48 @@
 // volani s parametry 98 a 1 vrati false;
 
 
-
 //vytvor constantu string, které bude pole
 //vypis co obsahuje string
 //za pomoci foru vypis delku stringu
 
+
 //vytvor si konstantu co bude string "mala nezletila devka"
 // vytvor funkci jejiz pomoci for  v teto vete spocitas pocet acek
 
+const kurvicka:string = "Mala nezletila devka"
 
+function pocetAcek( kurvicka:string ) {
+    let poci = 0;
+    for ( const acka of kurvicka ) {
+        if ( acka==="a" ) {
+            poci++
+        }
+    }
+    return poci
+}
+console.log(pocetAcek(kurvicka))
 
 //vytvor funkci, která bude pracovat se stringem Máme rádi babišovi dobroty
     // v této věte spočítej mezery
 
 
+
     //spočítej celkovou délku stringu
+
 
 
     //spočítej průměrnou délku slova
 
+
+
 //mas string o nejaké délkce
 //pomoci if a else uric jestli tento string obsahuje nejakou sekvenci písmen
+
+const ululu:string = "cururukuku"
+
+if (ululu.includes("curu")){
+    console.log("Veta to obsahuje")
+}
 
 
 //ve stringu Babisovi neuveritelne prihody 
@@ -40,7 +61,8 @@
 //vypis kazdy charakter
 
 
-//string Kubik je Zemanova devka
+
+//string Kubik je zemanova devka
 // mezi kazde slovo vloz cumbucket
 
 
@@ -54,6 +76,7 @@
 // do konzole Toto je vesti nez 5 a pak Toto je mensi nez pet
 
 
+
 //funkce ktera na vstup doste vetu a vrati text (vstup: tohle je veta)
 //vysledek: Vstupni veta obsahuje slova o delce 5, 2, 4 znaku
 
@@ -61,6 +84,7 @@
 
 function veticka(veta:string):string {
     let piss = veta.split(" ")
+    //console.log(veta)
     let poco = `Vstupni veta obsahuje slova o delce `
     for ( const bukake of piss) {
         poco+=bukake.length
@@ -71,4 +95,21 @@ function veticka(veta:string):string {
     return poco
 }
 console.log(veticka(veta))*/
+
+
+
+
+
+
+
+
+
+
+//funkce ktera na vstup doste vetu a vrati text (vstup: tohle je veta)
+//vysledek: Vstupni veta obsahuje slova o delce 5, 2, 4 znaku
+
+
+//vytvor dvou promennych. Jedna s hodnotou nula a jedna s hodnotou 20
+//pomocí foru vypis výsledek "Součet čísel n je a "výsledek""
+//a Průměr čísel n je "výsledek"
 

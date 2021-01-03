@@ -1,3 +1,5 @@
+/*import createResult from "./ukol"
+
 const caesarr = "mala nezletila devka"
 
 function letterChange1(caesar:string):string{
@@ -33,4 +35,29 @@ console.log(letterChange1(caesar))
 }
 
 console.log(caesar);*/
+
+
+
+const holcicka: string = "Mala nezletila devka."
+
+function nahrada(holcicka:string) {
+    let zamena = ""
+    for ( const veta of holcicka ) {
+        if (veta == "a" ) {
+            zamena += "e"
+        } else if ( veta == "l") {
+            zamena+="k"
+        } else {
+            zamena+=veta
+        }
+    }
+    return zamena
+}
+console.log(nahrada(holcicka))
+
+
+
+
+
+
 

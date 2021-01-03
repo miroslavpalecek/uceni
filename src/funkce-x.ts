@@ -68,3 +68,20 @@ console.log(avaWorldLengh(hhh))
 // dva zápisy toho stejného  
 //count++
 //count = count + 1;
+
+
+const vetaa:string = "Mala zkurvena nezletila cubka chodila kazdy den pro rohliky"
+
+function rohliky(vetaa:string):number {
+  let housky = 0;
+  let mezeryMeziSlovy = 0;
+  for ( const pecivo of vetaa ) {
+    if ( pecivo !== " " ) {
+      housky++
+    } else {
+      mezeryMeziSlovy++
+    }
+  }
+  return housky/(mezeryMeziSlovy+1)
+}
+console.log(rohliky(vetaa))

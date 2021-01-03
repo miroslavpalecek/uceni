@@ -20,3 +20,10 @@ if (g.includes('ond')) {
     // True for *any* value of x!
     } */
 
+    let hula:string = "obsahuje"
+
+    if (hula.includes("obsa") ) {
+        console.log("ano")
+        console.log(hula.length)
+        console.log(`Toto ${hula.length} je výsledek`)
+    }

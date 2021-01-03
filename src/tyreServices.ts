@@ -20,7 +20,7 @@ let url = "mongodb://localhost:27017/";
     tyreServiceId: string,
     cb: (err: Error | undefined, res: string[] | undefined) => void,
 ): void {
-    let activeWh:any = []
+    let activeWh:string [] = []
     console.log(tyreServiceId);
 
     MongoClient.connect(url, function(err:any, db:any) {
@@ -33,14 +33,16 @@ let url = "mongodb://localhost:27017/";
                      cb(err , undefined);
                  } else {
                      for(const sklady of tyreService.supplier.stocks) {
-                         //console.log(tyreService)
                          if ( sklady.active == true ) {
                             activeWh.push( sklady )
+
                          }
                      }
-                     //console.log(tyreService.supplier.stocks)
-                     cb(undefined, activeWh)
                 }
+                activeWh.sort(function(a:any, b:any) {
+                    return a.priority - b.priority;
+                });
+                cb(undefined,activeWh)
                 db.close();
                 });
         }
@@ -50,8 +52,10 @@ let url = "mongodb://localhost:27017/";
 }
 
 if (require.main === module) {
-    getStockCodes("1603268614545x177762690496120261",(err, res) => {
+    getStockCodes("1603268614545x177762690496120260",(err, res) => {
         console.log(err);
         console.log(JSON.stringify(res, undefined, 4));
         });
 }
+
+//at to vraci nejen aktivni sklady pro dany pneuservis, ale at jsou serazene i podle priority (priorita 1 na zacatku, cokoliv vyssiho dal).

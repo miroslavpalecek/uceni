@@ -12,6 +12,3 @@ function zemanSays(input:string):string{
         return kun
     }
     
-
-console.log(zemanSays(zeman))
-console.log(zemanSays("In this lecture, Dr. Bell introduces strings"))

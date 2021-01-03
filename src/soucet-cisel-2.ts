@@ -16,7 +16,7 @@ console.log(b)*/
 
 
 function vstupCislo(oo:number, kk:number):number{
-    let sou = 0;
+    let sou = 1;
     for (let i = 0; i < kk; i++){
         sou = sou + oo
     }
@@ -30,3 +30,16 @@ console.log(vstupCislo(5, 3))
 
 
 
+//funkce vstup cislo a to cislo vrati 5x (5+5+5+5+5)
+//pouzít for cyclus, uvnitr funkce nejakou promenná s mezivýsledkem
+//na konci výsledek
+
+
+function milion(qqq:number, eee:number):number {
+    let nasobenii = 1;
+    for ( let i = 0; i < eee; i++ ) {
+        nasobenii = nasobenii * qqq
+    }
+    return nasobenii
+}
+console.log(milion(2,3))

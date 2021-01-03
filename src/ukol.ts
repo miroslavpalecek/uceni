@@ -27,7 +27,6 @@ export default function createResult(requiredAmount: number, purchasePrice: numb
 //let prom2: boolean: false;
 //let prom3: boolean = prom && prom2;
 //prom3 = prom || prom2;
-//Martin Houdek13:16
 //let priceIsLower: boolean = true;
 //prom2 = prom2 && prom;
 //priceIsLower = priceIsLower && neco;

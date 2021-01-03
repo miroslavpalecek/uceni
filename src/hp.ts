@@ -13,7 +13,6 @@
 
 let hp = 100
 
-
 function getRandomFloat():number {
     const min = 1
     const max = 100
